@@ -4,3 +4,5 @@ This program takes a list of machine part numbers from an Excel file (.xlsx or .
 The user can update the starting row and column of their list, which sheet to print from, as well as choose a folder directory to create an output file called "MissingParts.txt", which contains the part numbers of all PDFs that could not be found.
 
 All files are automatically printed through PowerShell to the user's default printer. PowerShell was utilized because it is an interpreted language, and the machinery company for which this program was made had strict security regulations surrounding compiled languages. 
+
+See the ExampleDrawings branch for a collection of test PDFs.
