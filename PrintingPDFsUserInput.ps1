@@ -105,7 +105,7 @@ for($i = $firstRow; $i-le $totalRows;$i++)
         try
         {
             # TRY TO PRINT FILE - IF SUCCESSFUL BREAK LOOP
-            Start-Process -FilePath "G:\Drawings\AutoDrawingPrinter\DupDrawingsForPrinting\$fileName" -Verb print
+            Start-Process -FilePath "C:\Drawings\$fileName" -Verb print
             if($?)
             {
                 $found = $true
